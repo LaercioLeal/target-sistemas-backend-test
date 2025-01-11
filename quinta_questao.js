@@ -7,7 +7,7 @@ function inverteString(palavra) {
 }
 function main() {
     let palavra = prompt("Digite uma palavra:")
-    if (!isNaN || palavra.length <= 0) {
+    if (!isNaN(palavra) || palavra.length <= 0) {
         console.log("Valor inválido. Por favor, digite uma palavra.")
         return
     }
